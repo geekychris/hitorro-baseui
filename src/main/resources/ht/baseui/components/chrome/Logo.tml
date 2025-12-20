@@ -1,0 +1,12 @@
+<html>
+<head>
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+    <span id="logo" style="font-family: 'impact';font-size:30px"><img alt="HiTorro Logo" src="${asset:bull_head_no_back.png}"/><strong > Hi-Torro</strong></span>
+</body>
+</html>
+
+
+

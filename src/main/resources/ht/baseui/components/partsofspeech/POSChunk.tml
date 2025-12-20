@@ -1,0 +1,15 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+<body>
+<t:loop source="sentences" value="sentence">
+    <td>
+        <t:partsofspeech.posrow t:posText="sentence" t:language="language" t:id=""/>
+        <p/>
+    </td>
+</t:loop>
+</body>
+</html>
+
+
+
+
+

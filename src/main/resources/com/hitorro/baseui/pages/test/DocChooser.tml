@@ -1,0 +1,32 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd" title="chris name"
+      t:sidebarTitle="choosing choosing">
+<head>
+    <title>Hello World Page version 2</title>
+</head>
+<body>
+This is a test
+<t:form t:id="form">
+<table t:type="grid" t:source="docs" t:row="doc" t:model="mymodel" t:rowsPerPage="8" t:pagerPosition="top">[Grid here]
+    hello<t:parameter name="actionCell">
+        <t:pagelink t:page="test/main" t:context="doc.guid">
+            View
+        </t:pagelink>
+    </t:parameter>
+</table>
+<br/>
+
+        <div class="demo" id="droppable_container">
+            <div t:id="dragme" t:type='any' class="dragbox" t:mixins="dragmixin">
+               drag
+            </div>
+            <div t:id="dropme" t:type='any' t:mixins="dropmixin" class= "dropbox" t:dropClass="literal:dragbox">
+               Drop on me away ada
+            </div>
+        </div>
+
+
+<!--<t:textArea t:mixins="CKEditor" value="prop:posText" parameters="{'toolbar': 'Full'}" /> -->
+<input type="submit" value="save"/>
+</t:form>
+</body>
+</html>

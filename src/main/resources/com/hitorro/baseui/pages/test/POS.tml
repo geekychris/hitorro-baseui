@@ -1,0 +1,51 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" title="chris name"
+>
+<head>
+    <title>Part of speech</title>
+
+    <style type="text/css" media="screen">
+       DIV.t-autocomplete-menu UL {
+        border: 2px outset #ccc;
+        background-color: #444;
+        padding: 1px 2px;
+        overflow: auto;
+        }
+        DIV.t-autocomplete-menu LI.selected {
+            color: black;
+            font-weight: bold;
+        }
+        </style>
+
+
+</head>
+<body>
+
+
+
+
+<t:form t:id="form">
+    <div id="content_header" class="first_in_content">
+        <h1>Part of Speech tagging</h1>
+        <t:label for="language"/>
+        :
+        <t:select t:id="language" model="literal:en,de,se,pt,da,nl"/>
+        <br/>
+
+        <t:textarea t:id="posText" rows="10" cols="80" value="posText" style="border-radius:15px;"/>
+        <t:partsofspeech.poschunk t:posText="${posText}" t:language="${language}" t:id=""
+                    xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"/>
+        <br/>
+        <input type="submit" value="render"/>
+
+        <t:tree model='fileModel'/>
+
+        <p>
+            <t:actionlink t:id="fail">click for exception</t:actionlink>
+        </p>
+
+
+    </div>
+</t:form>
+
+</body>
+</html>

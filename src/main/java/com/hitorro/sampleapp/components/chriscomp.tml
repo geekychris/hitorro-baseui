@@ -1,0 +1,14 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+<body>
+<p> Component chris ${foo}.</p>
+
+<p> The foo is: ${foo}. </p>
+
+
+<p>
+    [
+    <t:pagelink t:page="chris">refresh</t:pagelink>
+    ]
+</p>
+</body>
+</html>

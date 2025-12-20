@@ -1,0 +1,93 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" title="chris name"
+      t:sidebarTitle = "Main notes" xmlns:p="tapestry:parameter">
+<head>
+    <title>Main Document Test Page</title>
+</head>
+<body>
+<h1>Main Document Test Page</h1>
+
+<p> This is the start newer than newest page for this application, a good place to start your modifications.
+    Just to prove this is lively: </p>
+
+
+<t:form t:id="form">
+    <p> The currently time is: ${currentTime}. </p>
+
+    <table border="0">
+
+        <tr>
+            <td width="194">My Component</td>
+            <td width="314">
+                <t:comp t:id="" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Auto Complete Me</td>
+            <td>
+                <t:textfield t:id="accountName" t:mixins="autocomplete" size="50" value="myText"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>
+                <input type="text" t:type="datefield" t:value="dateOfBirth" t:format="d/M/y"/>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                [
+                <t:pagelink t:page="test/main">refresh</t:pagelink>
+                ]
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+
+        </tr>
+
+    </table>
+
+    <t:zone t:id="zone">
+        <p>
+            You have clicked the link <strong>${clickCount}</strong> times.
+        </p>
+
+        <p>
+            <t:actionlink t:id="incrementAjax" zone="^">increment (via Ajax)</t:actionlink>
+            ]
+        </p>
+
+    </t:zone>
+
+</t:form>
+<t:beaneditform t:id="beacon" submitLabel="submitme" t:object="beacon" t:model="mymodel"/>
+
+
+<t:zone t:id="counterZone" id="counterZone">
+    <p>You have clicked the link <strong>${clickCount}</strong> times.</p>
+</t:zone>
+
+<p>
+    <t:actionlink t:id="clicker" zone="counterZone">increment the count</t:actionlink>
+</p>
+
+
+</body>
+   <!-- <t:D3NodeLinkTree t:data="asset:/flare.json"/>  -->
+<t:D3NodeLinkTree t:id = "chrisnode" t:height="literal:960" t:graphType="literal:radial" t:width = "literal:960"  t:data="asset:/flare.json"/>
+<t:D3NodeLinkTree t:id = "chrisnode2" t:height="literal:500" t:graphType="literal:linear" t:width = "literal:500"  t:data="asset:/flare.json"/>
+
+
+
+
+    <p:sidebar>
+        Mains sidebar of my mega test that if I was smart I would put something clever here.
+        <p>
+            [
+            <t:pagelink page="test/main">refresh page</t:pagelink>
+            ]
+        </p>
+    </p:sidebar>
+
+</html>

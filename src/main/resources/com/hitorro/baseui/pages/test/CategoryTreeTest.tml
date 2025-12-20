@@ -1,0 +1,32 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+    <head>
+        <title>Hello World Page</title>
+    </head>
+    <body>
+        <t:form t:id="form">
+        <div id="content_header" class="first_in_content">
+            <h1>TreeTest</h1>
+            <t:tree model='categoryModel'  selectionModel='selectionModel'/>
+        </div>
+
+            <p>
+        [
+        ]
+        [
+        <t:actionlink t:id="clearAll">clear all</t:actionlink>
+        ]
+    </p>
+
+    <h2>Selections</h2>
+
+    <ul>
+
+        <t:loop source="selectedObjects" value="selectedObject">
+
+            <li>${selectedObject.value}</li>
+        </t:loop>
+
+    </ul>
+    </t:form>
+    </body>
+</html>

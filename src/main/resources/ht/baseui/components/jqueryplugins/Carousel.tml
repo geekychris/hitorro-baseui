@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+    <div class="${clientElement}" ><!-- This is the wrapping element -->
+    <a href="http://en.wikipedia.org/wiki/Self-portrait_(Leonardo_da_Vinci)" target="_blank">
+        <img src="${asset:pic1.png}" alt="Pic 1"/>
+    </a>
+    <img id="pic2" src="${asset:pic2.png}" alt="Pic 2"/>
+    <img src="${asset:pic3.png}" alt="Pic 3"/>
+    <img src="${asset:pic4.png}" alt="Pic 4"/>
+    <img src="${asset:pic5.png}" alt="Pic 5"/>
+
+    <img src="${asset:pic6.png}" alt="Pic 6"/>
+    <img src="${asset:pic7.png}" alt="Pic 7"/>
+    <img src="${asset:pic8.png}" alt="Pic 8"/>
+    <img src="${asset:pic9.png}" alt="Pic 9"/>
+</div>
+
+
+</body>
+</html>

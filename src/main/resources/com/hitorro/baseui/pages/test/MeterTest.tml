@@ -1,0 +1,14 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" title="chris name"
+>
+<head>
+    <title>Part of speech</title>
+</head>
+<body>
+<t:form t:id="form">
+    <t:GMeter />
+
+
+</t:form>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" title="graph test"
+>
+
+
+<head>
+    <title>Graph Test</title>
+
+
+</head>
+
+<body>
+    <table>
+
+        <tr>
+            <td>
+                <t:graph/>
+            </td>
+        </tr>
+    </table>
+
+
+
+
+    <div t:type="jqueryplugins/carousel" t:id="cara"></div>
+    <t:sparkline.sparkline t:id="mysparky" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"/>
+    <t:Simplespider/>
+    <t:D3NodeLinkTree t:height="980" t:width="980" t:graphType="literal:radial" t:data="asset:/flare.json"/>
+</body>
+</html>

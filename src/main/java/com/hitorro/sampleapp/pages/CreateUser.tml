@@ -1,0 +1,8 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd" title="chris name"
+>
+<body>
+<h1>Create New User</h1>
+
+<t:beaneditform t:id="user" submitLabel="message:create-user"/>
+</body>
+</html>

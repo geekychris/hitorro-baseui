@@ -1,0 +1,46 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+<body>
+<table border="8" cellpadding="4">
+    <tr>
+        <t:loop source="textParts" value="textPart">
+            <td>
+                ${textPart}
+            </td>
+        </t:loop>
+    </tr>
+    <tr>
+        <t:loop source="posParts" value="posPart">
+            <td>
+                <div id="toc" title="${posPartDetails()}">${posPart} </div>
+            </td>
+        </t:loop>
+    </tr>
+    <tr>
+        <t:loop source="names" value="name">
+            <td>
+                ${name}
+            </td>
+        </t:loop>
+    </tr>
+    <tr>
+        <t:loop source="deps" value="dep">
+            <td>
+                ${dep}
+            </td>
+        </t:loop>
+    </tr>
+    <tr>
+        <t:loop source="heads" value="head">
+            <td>
+                ${head}
+            </td>
+        </t:loop>
+    </tr>
+
+
+</table>
+<span  STYLE="font-family:monospace; font-size:10px">
+<t:OutputRaw value="${chunkerDetails()}"/>
+</span>
+</body>
+</html>

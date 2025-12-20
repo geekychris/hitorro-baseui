@@ -1,0 +1,10 @@
+<html>
+<head>
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+<span id="logo" style="font-family: 'impact';font-size:30px"><img alt="SSP Logo" src="${asset:ssp_small.png}"/><strong>
+    CTO-DEV SSP</strong></span>
+</body>
+</html>

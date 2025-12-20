@@ -1,0 +1,9 @@
+<html>
+    <head>
+    </head>
+    <body>
+    <h1>Christopher's Spider Chart</h1>
+
+    <div id="canvas"></div>
+    </body>
+</html>

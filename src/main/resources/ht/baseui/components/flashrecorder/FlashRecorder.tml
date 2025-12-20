@@ -1,0 +1,9 @@
+<html>
+    <head>
+    </head>
+    <body>
+    <a href="javascript:webcam.capture('http://localhost:8072/rawupload/rawupload.php'); void(0);">Take a picture after 3 seconds</a>
+    <div id="webcam"></div>
+
+    </body>
+</html>

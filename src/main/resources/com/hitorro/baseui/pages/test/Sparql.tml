@@ -1,0 +1,14 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd" title="chris name"
+>
+<head>
+    <title>Sparql test</title>
+</head>
+<body>
+    <t:form t:id="form">
+        <t:textfield t:id="datasetText" rows="1" cols="80" value="datasetText" style="border-radius:5px;"/>
+        <t:textarea t:id="sparqlText" rows="10" cols="80" value="sparqlText" style="border-radius:5px;"/>
+        ${output}
+        <input type="submit" value="render"/>
+    </t:form>
+</body>
+</html>

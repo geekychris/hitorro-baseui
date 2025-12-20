@@ -1,0 +1,68 @@
+<html t:type="layout" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd" title="chris name"
+>
+<head>
+    <title>tutorial1 Start Page</title>
+</head>
+<body>
+<h1>tutorial1 Start Page</h1>
+
+<p> This is the start newer than newest page for this application, a good place to start your modifications.
+    Just to prove this is lively: </p>
+
+
+<t:form t:id="form">
+    <p> The currently time is: ${currentTime}. </p>
+
+
+    <table border="0">
+
+        <tr>
+            <td width="194">My Component</td>
+            <td width="314">
+                <t:chriscomp t:id="" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Auto Complete Me</td>
+            <td>
+                <t:textfield t:id="accountName" t:mixins="autocomplete" size="50" value="myText"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>
+                <input type="text" t:type="datefield" t:value="dateOfBirth" t:format="d/M/y"/>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                [
+                <t:pagelink t:page="chris">refresh</t:pagelink>
+                ]
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+
+        </tr>
+
+    </table>
+
+
+    <t:beaneditform t:id="beacon" submitLabel="submitme" t:object="beacon"/>
+
+</t:form>
+
+
+<t:zone t:id="counterZone" id="counterZone">
+    <p>You have clicked the link <strong>${clickCount}</strong> times.</p>
+</t:zone>
+
+<p>
+    <t:actionlink t:id="clicker" zone="counterZone">increment the count</t:actionlink>
+</p>
+
+
+</body>
+</html>

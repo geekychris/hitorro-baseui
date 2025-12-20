@@ -1,0 +1,18 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+<head>
+</head>
+<body>
+<h1>Autocomplete test component for model: ${model}</h1>
+    <table border="0">
+
+        <tr>
+            <td>Ask a question of SOLR</td>
+
+
+            <td>
+                <t:textfield t:id="queryField" t:mixins="jquery/Autocomplete" size="100" value="query"/>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

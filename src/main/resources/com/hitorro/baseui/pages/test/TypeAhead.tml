@@ -1,0 +1,38 @@
+<html t:type="layout2" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd">
+<head>
+    <title>Autocomplete test page</title>
+</head>
+<body>
+
+<t:form t:id="autocompleteRow">
+    <table border="0">
+
+        <tr>
+            <t:queryautocomplete t:id="s" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+                                 t:model="literal:blaa"/>
+
+            <t:autocomplete t:id="fts" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+                            t:model="literal:fta"/>
+
+            <t:autocomplete t:id="q" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+                            t:model="literal:questions"/>
+
+            <t:autocomplete t:id="c" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+                            t:model="literal:combined"/>
+
+            <t:autocomplete t:id="a" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+                            t:model="literal:answers"/>
+
+            <t:autocomplete t:id="f" xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+                            t:model="literal:fed"/>
+        </tr>
+
+        <tr>
+            <td></td>
+
+        </tr>
+
+    </table>
+</t:form>
+</body>
+</html>

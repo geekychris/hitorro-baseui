@@ -1,0 +1,132 @@
+body {
+    font: 14px Helvetica Neue;
+    margin-top: 1em;
+    overflow-y: scroll;
+    text-rendering: optimizelegibility;
+}
+
+a {
+    color: steelblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.body {
+    margin: auto;
+    width: 960px;
+}
+
+.topbar a {
+    margin-right: 0.5em;
+}
+
+.content {
+    margin-left: 240px;
+    position: relative;
+}
+
+.content img {
+    display: block;
+    margin: auto;
+}
+
+/*
+.sidebar {
+    font-weight: 300;
+    left: -240px;
+    position: absolute;
+    width: 230px;
+}
+
+.sidebar {
+    color: #666666;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.sidebar li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 230px;
+}
+.sidebar h3 {
+    font-weight: 300;
+}
+*/
+.gallery {
+    left: -240px;
+    position: relative;
+    width: 970px;
+}
+
+.content .gallery img {
+    border: 2px solid #CCCCCC;
+    display: inline;
+    height: 180px;
+    margin-bottom: 8px;
+    margin-right: 10px;
+    width: 226px;
+}
+
+.content .gallery a:hover img {
+    border-color: steelblue;
+}
+
+.list {
+    clear: left;
+    margin-top: 14px;
+}
+
+.list img {
+    float: left;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 0.3em;
+}
+
+.foot {
+    clear: both;
+    font-weight: 300;
+    margin-left: 240px;
+    padding-top: 3em;
+    width: 710px;
+}
+
+button {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../button-overlay.png") repeat-x scroll 0 0 #222222;
+    border-color: -moz-use-text-color -moz-use-text-color #222222;
+    border-radius: 5px 5px 5px 5px;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: 0 1px 3px #999999;
+    color: #FFFFFF;
+    font: 12px Helvetica Neue;
+    min-width: 80px;
+    padding: 6px 10px;
+    text-shadow: 0 -1px 1px #222222;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+.highlight {
+    font: 12px monospace;
+}
+
+.highlight pre {
+    overflow-x: auto;
+}
