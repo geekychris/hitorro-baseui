@@ -7,7 +7,7 @@
     <groupId>com.hitorro</groupId>
     <artifactId>hitorro-baseui</artifactId>
     <version>3.0.0</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>Hitorro Base UI</name>
     <description>Apache Tapestry-based web UI components for Hitorro</description>
