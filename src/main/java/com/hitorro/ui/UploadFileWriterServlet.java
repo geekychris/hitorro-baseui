@@ -42,7 +42,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 
 /**
- * Copyright (c) 2003 - present HiTorro All rights reserved. User: chris Date: Jul 23, 2005 Time: 10:13:07 AM
  * <p/>
  * Upload servlet for handling upload of content from the upload applet, uses http put.
  * <p/>

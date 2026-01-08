@@ -1,5 +1,4 @@
-/**
- */
+
 
 DragMixin = Class.create({
 
