@@ -30,9 +30,7 @@ import org.apache.tapestry5.annotations.Parameter;
 import org.apache.tapestry5.json.JSONObject;
 import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 
-/**
- *
- */
+
 //@Import(library={"3rdpartyjavascript/d3_2.6.0.js", "3rdpartyjavascript/d3.layout_2.6.0.js", "D3NodeLinkTree.js"}, stylesheet = {"3rdpartyjavascript/d3_syntax.css","3rdpartyjavascript/d3_style.css", "3rdpartyjavascript/tree.css"})
 @Import(library = {"d3/d3_2.6.0.js", "d3/d3.layout_2.6.0.js", "D3NodeLinkTree.js"}, stylesheet = {"d3/d3_syntax.css", "d3/d3_style.css", "d3/tree.css"})
 

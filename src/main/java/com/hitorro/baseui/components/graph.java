@@ -26,9 +26,7 @@ import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.json.JSONObject;
 import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 
-/**
- *
- */
+
 @Import(library = {"raphael.js", "popup.js", "analytics.js"}, stylesheet = {"demo.css", "demo-print.css"})
 //@Import(library={"raphael.js", "popup.js", "3rdpartyjavascript.js", "analytics.js"}, stylesheet = {"demo.css", "demo-print.css"})
 public class graph {

@@ -21,9 +21,7 @@
  */
 package com.hitorro.baseui.treeadapters;
 
-/**
- *
- */
+
 
 import org.apache.tapestry5.tree.TreeModelAdapter;
 

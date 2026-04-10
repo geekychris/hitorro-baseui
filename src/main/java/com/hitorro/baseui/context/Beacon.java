@@ -23,9 +23,7 @@ package com.hitorro.baseui.context;
 
 import java.util.Date;
 
-/**
- *
- */
+
 public class Beacon {
     private String name;
     private String email;

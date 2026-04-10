@@ -31,9 +31,7 @@ import org.apache.tapestry5.json.JSONArray;
 import org.apache.tapestry5.json.JSONObject;
 import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 
-/**
- *
- */
+
 @Import(library = {"HTJSUtils.js", "SimpleSpider.js", "raphael.js"})
 public class SimpleSpider {
     @Parameter

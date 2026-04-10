@@ -21,9 +21,7 @@
  */
 package com.hitorro.sampleapp;
 
-/**
- *
- */
+
 public class MemeResult {
     private String _link;
     private int _totalWeight;

@@ -35,9 +35,7 @@ import org.apache.tapestry5.tree.*;
 
 import java.util.List;
 
-/**
- *
- */
+
 public class CategoryTreeTest {
     @SessionState
     private DMSSessionState ss;

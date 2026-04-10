@@ -29,9 +29,7 @@ import com.hitorro.util.typesystem.annotation.TypeClassMetaInfo;
 
 import java.io.IOException;
 
-/**
- *
- */
+
 @TypeClassMetaInfo(shortTypeName = "LinkAnalysisMemeResult",
         isView = false,
         isPersisted = false,

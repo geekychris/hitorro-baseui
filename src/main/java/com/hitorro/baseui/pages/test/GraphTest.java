@@ -28,9 +28,7 @@ import org.apache.tapestry5.annotations.InjectContainer;
 import org.apache.tapestry5.annotations.Property;
 
 
-/**
- *
- */
+
 @Import(library = {"${tapestry.scriptaculous}/dragdrop.js", "${tapestry.scriptaculous}/scriptaculous.js", "${tapestry.scriptaculous}/effects.js", "graphtest.js"}, stylesheet = {"graphtest.css"})
 public class GraphTest {
     @Property

@@ -21,9 +21,7 @@
  */
 package com.hitorro.baseui.components;
 
-/**
- *
- */
+
 public class comp {
     public String getFoo() {
         return "fewey";

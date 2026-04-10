@@ -39,9 +39,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- *
- */
+
 @Import(stylesheet = {"graphtest.css"})
 public class DocChooser {
     @Property

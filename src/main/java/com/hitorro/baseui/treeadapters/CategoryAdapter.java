@@ -31,9 +31,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- *
- */
+
 public class CategoryAdapter implements TreeModelAdapter<Category> {
 
     private DMSSessionState ss;

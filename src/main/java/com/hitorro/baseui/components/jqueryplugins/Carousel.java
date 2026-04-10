@@ -33,9 +33,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 
 import javax.inject.Inject;
 
-/**
- *
- */
+
 @Import(library = {"image_carousel.js"})
 
 public class Carousel {

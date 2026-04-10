@@ -23,9 +23,7 @@ package com.hitorro.baseui.components.sparkline;
 
 import org.apache.tapestry5.annotations.Import;
 
-/**
- *
- */
+
 @Import(library = {"jquery.sparkline.js"})
 public class Sparkline {
 }

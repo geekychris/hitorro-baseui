@@ -40,9 +40,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 import org.apache.tapestry5.tree.DefaultTreeModel;
 import org.apache.tapestry5.tree.TreeModel;
 
-/**
- *
- */
+
 public class POS {
     @Persist
     private String posText;

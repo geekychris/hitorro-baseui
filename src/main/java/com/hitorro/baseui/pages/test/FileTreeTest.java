@@ -29,9 +29,7 @@ import org.apache.tapestry5.tree.TreeModel;
 import java.io.File;
 import java.util.Arrays;
 
-/**
- *
- */
+
 public class FileTreeTest {
     private File directory;
 

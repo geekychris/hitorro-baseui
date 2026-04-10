@@ -29,9 +29,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 
 import javax.inject.Inject;
 
-/**
- *
- */
+
 @Import(library = {"${tapestry.scriptaculous}/dragdrop.js", "${tapestry.scriptaculous}/scriptaculous.js", "${tapestry.scriptaculous}/effects.js", "DragMixin.js"})
 public class DragMixin {
 // Generally useful bits and pieces

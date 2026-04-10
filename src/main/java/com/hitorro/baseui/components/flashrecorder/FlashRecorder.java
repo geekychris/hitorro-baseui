@@ -34,9 +34,7 @@ import org.apache.tapestry5.services.javascript.JavaScriptSupport;
 
 import javax.inject.Inject;
 
-/**
- *
- */
+
 @Import(library = {"jquery.webcam.js", "flashrecorder.js"})
 
 public class FlashRecorder {

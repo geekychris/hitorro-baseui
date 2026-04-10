@@ -21,8 +21,6 @@
  */
 package com.hitorro.baseui.pages.test;
 
-/**
- *
- */
+
 public class MeterTest {
 }

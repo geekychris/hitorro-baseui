@@ -25,9 +25,7 @@ import org.apache.tapestry5.SymbolConstants;
 import org.apache.tapestry5.ioc.MappedConfiguration;
 import org.got5.tapestry5.jquery.JQuerySymbolConstants;
 
-/**
- *
- */
+
 public class AppModule {
     public static void contributeApplicationDefaults(MappedConfiguration<String, String> configuration) {
         // ensure still can use prototype

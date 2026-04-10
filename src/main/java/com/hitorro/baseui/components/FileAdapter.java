@@ -28,9 +28,7 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- *
- */
+
 public class FileAdapter implements TreeModelAdapter<File> {
     public FileAdapter() {
         Console.println();

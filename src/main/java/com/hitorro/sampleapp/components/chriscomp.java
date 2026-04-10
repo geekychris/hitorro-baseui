@@ -21,9 +21,7 @@
  */
 package com.hitorro.sampleapp.components;
 
-/**
- *
- */
+
 public class chriscomp {
     public String getFoo() {
         return "fewey";
