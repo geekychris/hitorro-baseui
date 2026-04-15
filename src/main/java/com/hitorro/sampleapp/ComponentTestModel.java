@@ -48,7 +48,7 @@ public class ComponentTestModel implements ListValueSource {
     public static final int SerializationVersion = 0;
     private static final int ZebraValue = -7070;
     private static final int MongooseValue = 8765;
-    public static final ListValue[] s_iListChoices = {
+    public static ListValue[] s_iListChoices = {
             new ListValue("zebra", ZebraValue),
             new ListValue("mongoose", MongooseValue)
     };

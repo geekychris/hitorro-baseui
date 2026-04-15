@@ -56,7 +56,7 @@ public class TapestryService {
     /**
      * the application compContext
      */
-    public static final StringProperty ContextPath =
+    public static StringProperty ContextPath =
             new StringProperty("ui.contextpath", "compContext path for app", "/com/hitorro");
 
     public TapestryService() {

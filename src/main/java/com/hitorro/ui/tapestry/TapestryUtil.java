@@ -62,7 +62,7 @@ public class TapestryUtil {
      * @param pc The page class.
      * @return The name of the page, suitable for handing to getPage
      */
-    public static String pageName(Class pc) {
+    public static final String pageName(Class pc) {
         String className = pc.getCanonicalName();
         if (className.startsWith(PagePackageRoot)) {
             // usual class name.  Since we're basing our page names under "ht" (see app.application)
@@ -113,7 +113,7 @@ public class TapestryUtil {
      * @param targetClass the class of the target page
      * @return the relative url of the target page
      */
-    public static String getRelativeUrl(Class baseClass, Class targetClass) {
+    public static final String getRelativeUrl(Class baseClass, Class targetClass) {
         String targetName = getHiTorroClass(targetClass).getCanonicalName();
         int basePackageLen = PagePackageRoot.length();
 
