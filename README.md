@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="Hitorro Baseui logo" width="180">
+</p>
+
 # Hitorro Base UI
 
 A web UI framework built on Apache Tapestry 5.4.x with components for data visualization, natural language processing interfaces, and RDF/SPARQL integration.
