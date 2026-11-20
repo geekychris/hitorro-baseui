@@ -22,13 +22,15 @@
 package com.hitorro.baseui.mixins;
 
 import org.apache.tapestry5.*;
+import org.apache.tapestry5.http.ContentType;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.annotations.Import;
 import org.apache.tapestry5.annotations.InjectContainer;
 import org.apache.tapestry5.annotations.Parameter;
 import org.apache.tapestry5.annotations.RequestParameter;
 import org.apache.tapestry5.internal.util.Holder;
 import org.apache.tapestry5.ioc.annotations.Inject;
-import org.apache.tapestry5.ioc.services.TypeCoercer;
+import org.apache.tapestry5.commons.services.TypeCoercer;
 import org.apache.tapestry5.json.JSONObject;
 import org.apache.tapestry5.services.MarkupWriterFactory;
 import org.apache.tapestry5.services.ResponseRenderer;

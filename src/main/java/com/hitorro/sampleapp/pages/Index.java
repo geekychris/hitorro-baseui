@@ -24,12 +24,12 @@ package com.hitorro.sampleapp.pages;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.tapestry5.Block;
 import org.apache.tapestry5.ComponentResources;
-import org.apache.tapestry5.Link;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.json.JSONArray;
 import org.apache.tapestry5.json.JSONObject;
-import org.apache.tapestry5.services.Request;
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.util.TextStreamResponse;
 
 import java.util.Date;
