@@ -22,7 +22,7 @@
 package com.hitorro.baseui.services;
 
 import org.apache.tapestry5.SymbolConstants;
-import org.apache.tapestry5.ioc.MappedConfiguration;
+import org.apache.tapestry5.commons.MappedConfiguration;
 import org.got5.tapestry5.jquery.JQuerySymbolConstants;
 
 

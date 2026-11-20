@@ -31,8 +31,8 @@ import org.apache.tapestry5.alerts.Severity;
 import org.apache.tapestry5.annotations.Import;
 import org.apache.tapestry5.annotations.Property;
 import org.apache.tapestry5.annotations.SessionState;
-import org.apache.tapestry5.beaneditor.BeanModel;
-import org.apache.tapestry5.services.BeanModelSource;
+import org.apache.tapestry5.beanmodel.BeanModel;
+import org.apache.tapestry5.beanmodel.services.BeanModelSource;
 
 import javax.inject.Inject;
 import java.util.ArrayList;

@@ -29,8 +29,8 @@ import com.hitorro.util.core.string.StringUtil;
 import org.apache.tapestry5.ValueEncoder;
 import org.apache.tapestry5.annotations.*;
 import org.apache.tapestry5.corelib.components.Tree;
-import org.apache.tapestry5.ioc.internal.util.CollectionFactory;
-import org.apache.tapestry5.ioc.util.Stack;
+import org.apache.tapestry5.commons.util.CollectionFactory;
+import org.apache.tapestry5.commons.util.Stack;
 import org.apache.tapestry5.tree.*;
 
 import java.util.List;

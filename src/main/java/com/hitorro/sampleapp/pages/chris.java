@@ -25,7 +25,7 @@ import com.hitorro.sampleapp.context.Beacon;
 import com.hitorro.util.core.Console;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.tapestry5.ComponentResources;
-import org.apache.tapestry5.Link;
+import org.apache.tapestry5.http.Link;
 import org.apache.tapestry5.annotations.InjectComponent;
 import org.apache.tapestry5.annotations.Persist;
 import org.apache.tapestry5.annotations.Property;
@@ -33,7 +33,7 @@ import org.apache.tapestry5.corelib.components.Zone;
 import org.apache.tapestry5.ioc.annotations.Inject;
 import org.apache.tapestry5.json.JSONArray;
 import org.apache.tapestry5.json.JSONObject;
-import org.apache.tapestry5.services.Request;
+import org.apache.tapestry5.http.services.Request;
 import org.apache.tapestry5.util.TextStreamResponse;
 
 import java.util.ArrayList;
